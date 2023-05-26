@@ -1,0 +1,57 @@
+.Testimonals {
+  padding-top: 60px;
+}
+
+.main-color {
+  background: rgb(234, 232, 232);
+  padding: 50px;
+}
+
+.main-div-test {
+  gap: 20px;
+}
+
+
+.values .name {
+  font-size: 20px;
+  line-height: 19px;
+  color: #26619C;
+  font-weight: 400;
+}
+
+.values .numbers {
+  font-size: 60px;
+  line-height: 30px;
+  color: #26619C;
+  font-weight: 800;
+  padding: 20px 0;
+}
+
+.values .strong {
+  font-size: 20px;
+  line-height: 20px;
+  color: #26619C;
+  font-weight: 800;
+}
+
+.values .content {
+  font-size: 20px;
+  line-height: 25px;
+  color: #26619C;
+  padding: 10px 0;
+  margin: 0px;
+}
+
+
+@media screen and (max-width:768px) {
+  .main-div-test {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .values .content {
+    text-align: left;
+  }
+
+}

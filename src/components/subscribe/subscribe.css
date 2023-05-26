@@ -1,0 +1,80 @@
+:root{
+    --color-blue:#26619C;
+    --color-gray: #777e85;
+}
+
+.Subscribe{
+   padding-top: 50px;
+}
+
+.sub-main h2{
+  color: var(--color-blue);
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 30px;
+  letter-spacing: 0.43px;
+  padding-bottom: 20px;
+}
+
+.sub-main p{
+   color: var(--color-gray);
+   font-size: 20px;
+   line-height: 24px;
+   padding-bottom: 10px;
+}
+
+input{
+   width: 100%;
+   padding: 20px 20px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.subscribe-image span{
+   width: 70vh;
+   height:70vh;
+   display: inline-block;
+   background-image: url(../../assets/phone.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.input-div{
+   gap:10px;
+}
+/* .now span{
+   text-align: justify;
+   color: #fff;
+   
+} */
+
+.now {
+    background: var(--color-blue);
+    width: 40%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.now span{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+@media screen and (max-width:768px) {
+
+   .Subscribe{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .subscribe-image span{
+   width: 80vw;
+   height:80vh;
+   display: inline-block;
+   background-image: url(../../assets/phone.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+}

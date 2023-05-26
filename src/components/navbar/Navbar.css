@@ -1,0 +1,55 @@
+
+
+.navbar-main{
+   background:#26619C ;
+   padding: 15px 0px;
+}
+
+.logo{
+   font-size: 30px;
+   line-height: 26px;
+   font-weight: 800;
+}
+
+.nav-links{
+   gap:20px;
+}
+
+.nav-names{
+   font-size: 16px;
+   line-height: 14px;
+}
+
+
+.serach-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.enroll p{
+   padding: 20px 30px;
+   border-radius: 15px;
+   background: #fff;
+   color: #26619C;
+   font-size: 16px;
+   line-height: 14px;
+   font-weight: 500;
+   margin: 0;  
+}
+
+
+@media screen and (max-width:768px) {
+   .main-div{
+      flex-direction: column;
+      gap:20px;
+   }
+
+   .nav-links{
+      flex-wrap: wrap;
+   }
+   .links{
+    display: none;
+   }
+}
+
+

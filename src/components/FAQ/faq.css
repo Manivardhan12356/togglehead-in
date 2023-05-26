@@ -1,0 +1,57 @@
+.faq{
+   padding-top: 60px;
+
+
+}
+
+
+.faq-h2{
+   color:#26619C;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 25px;
+   padding: 50px;
+}
+
+.MF{
+   padding-bottom: 20px;
+   border-bottom: 1px solid #bbc3cc;
+}
+
+.MF p{
+    color: #3e4244;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+svg{
+   font-weight: 600;
+}
+
+.account{
+   padding: 20px 0px;
+   border-bottom: 1px solid #7c8085;
+}
+
+.account p{
+   color:#26619C;
+   font-size: 18px;
+    line-height: 24px;
+}
+
+.account-content{
+   padding: 20px 0px;
+   border-bottom: 1px solid #bbc3cc;
+}
+
+.account-content p{
+   color:#26619C;
+   font-size: 18px;
+    line-height: 24px;
+    width: 80%;
+}
+
+.MF2{
+   padding: 20px 0;
+   border-bottom: 0px;
+}

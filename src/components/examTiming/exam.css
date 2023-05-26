@@ -1,0 +1,72 @@
+.exam-main{
+  margin-top: 50px;
+}
+.time-exam{
+   padding-right: 80px;
+   border-right: 1px solid #b4bac1;
+}
+.time-exam h3{
+   color:#26619C ;
+   font-size: 40px;
+}
+.time-exam p{
+   color:#777e85 ;
+   font-size: 18px;
+}
+
+svg{
+   color: #26619C;
+}
+
+.main-div{
+   padding:0px 50px;
+   gap:80px;
+}
+
+.levels{
+   gap:10px;
+}
+
+
+.exam-content p{
+   color: #26619C;
+   font-size: 18px;
+   line-height:19px;
+   font-weight: 500;
+}
+.exam-content span{
+   color: #777e85;
+    font-size: 18px;
+   line-height:19px;
+}
+
+
+@media screen and (max-width:768px) {
+
+
+
+   .banner p{
+    display: none;
+   }
+}
+
+@media screen and (max-width:470px) {
+   .exam-main{
+  margin-top: 50px;
+  padding: 40px;
+}
+
+.exams{
+   flex-direction: column;
+   justify-content:center ;
+   align-items: center;
+}
+
+.time-exam{
+   padding-bottom: 30px;
+   border-bottom: 1px solid #b4bac1;
+     padding-right: 0;
+   border-right:none;
+   margin-bottom: 20px;
+}
+}
