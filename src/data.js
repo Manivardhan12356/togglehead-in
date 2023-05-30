@@ -33,23 +33,39 @@ export const test = [
 export const cards = [
    {
       name: "Lorem ipsum",
-      content :"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      content :"Lorem ipsum dolor sit amet,consetetur"
    },
    {
       name: "Lorem ipsum",
-      content :"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      content :"Lorem ipsum dolor sit amet,consetetur"
    },
    {
       name: "Lorem ipsum",
-      content :"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      content :"Lorem ipsum dolor sit amet,consetetur"
    },
    {
       name: "Lorem ipsum",
-      content :"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      content :"Lorem ipsum dolor sit amet,consetetur"
    },
+   {
+      name: "Lorem ipsum",
+      content :"Lorem ipsum dolor sit amet,consetetur"
+   },
+   
+]
 
+
+export const FAQ = [
    {
-      name: "Lorem ipsum",
-      content :"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      name: "How does an investor gain access to MF Utility?",
+      content:"Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+   },
+   {
+      name: "Will investors be able to have multiple Common Account Numbers?",
+      content:"Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+   },
+   {
+      name: "How does an investor gain access to MF Utility?",
+      content:"Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
    }
 ]

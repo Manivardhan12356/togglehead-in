@@ -78,3 +78,10 @@ input{
    background-size: contain;
 }
 }
+
+
+@media screen and (max-width:560px) {
+   .now{
+      width: 100%;
+   }
+}

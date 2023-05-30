@@ -1,32 +1,38 @@
-
-
-.navbar-main{
-   background:#26619C ;
+.navbar-main {
+   background: #26619C;
    padding: 15px 0px;
 }
 
-.logo{
+.logo {
    font-size: 30px;
    line-height: 26px;
    font-weight: 800;
 }
 
-.nav-links{
-   gap:20px;
+.nav-links {
+   gap: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: none;
 }
 
-.nav-names{
+.nav-links.expanded {
+   display: flex;
+}
+
+.nav-names {
    font-size: 16px;
    line-height: 14px;
 }
 
-
-.serach-icon{
-  width: 20px;
-  height: 20px;
+.serach-icon {
+   width: 20px;
+   height: 20px;
 }
 
-.enroll p{
+.enroll p {
    padding: 20px 30px;
    border-radius: 15px;
    background: #fff;
@@ -34,22 +40,47 @@
    font-size: 16px;
    line-height: 14px;
    font-weight: 500;
-   margin: 0;  
+   margin: 0;
 }
 
+.toggle {
+   display: none;
+}
 
-@media screen and (max-width:768px) {
-   .main-div{
+.AiOutlineMenuFold {
+   width: 20px;
+   height: 20px;
+}
+
+.toggle-main {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.nav-links1 {
+   gap: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* flex-direction: column; */
+}
+
+@media (max-width: 768px) {
+   .main-div {
+      display: flex;
       flex-direction: column;
-      gap:20px;
+      gap: 20px;
    }
 
-   .nav-links{
-      flex-wrap: wrap;
+   .toggle {
+      display: block;
    }
-   .links{
-    display: none;
+
+   .nav-links {
+      display: none;
+   }
+   .nav-links1 {
+      display: none;
    }
 }
-
-

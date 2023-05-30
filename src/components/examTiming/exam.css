@@ -18,7 +18,7 @@ svg{
    color: #26619C;
 }
 
-.main-div{
+.main-div-exam{
    padding:0px 50px;
    gap:80px;
 }
@@ -43,6 +43,12 @@ svg{
 
 @media screen and (max-width:768px) {
 
+  
+.main-div-exam{
+   flex-direction: column;
+   justify-content:center ;
+   align-items: center;
+}
 
 
    .banner p{
@@ -57,6 +63,12 @@ svg{
 }
 
 .exams{
+   flex-direction: column;
+   justify-content:center ;
+   align-items: center;
+}
+
+.main-div-exam{
    flex-direction: column;
    justify-content:center ;
    align-items: center;

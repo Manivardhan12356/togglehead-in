@@ -13,9 +13,11 @@
    padding: 50px;
 }
 
+
 .MF{
-   padding-bottom: 20px;
-   border-bottom: 1px solid #bbc3cc;
+   padding: 20px 0px;
+   /* border-bottom: 1px solid #bbc3cc; */
+  
 }
 
 .MF p{
@@ -28,30 +30,29 @@ svg{
    font-weight: 600;
 }
 
-.account{
+/* .account{
    padding: 20px 0px;
    border-bottom: 1px solid #7c8085;
-}
+} */
 
-.account p{
+/* .account p{
    color:#26619C;
    font-size: 18px;
     line-height: 24px;
-}
-
-.account-content{
-   padding: 20px 0px;
-   border-bottom: 1px solid #bbc3cc;
-}
+} */
 
 .account-content p{
-   color:#26619C;
+   color:#777e85;
    font-size: 18px;
     line-height: 24px;
-    width: 80%;
+    width: 100%;
+    border-bottom: 1px solid #bbc3cc;
+    padding: 20px 0px;
 }
 
 .MF2{
    padding: 20px 0;
    border-bottom: 0px;
 }
+
+

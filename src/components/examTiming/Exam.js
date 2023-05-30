@@ -10,7 +10,7 @@ const Exam = () => {
           <h3>Upcoming <br /> Examinations</h3>
           <p>Enquire about the examation & <br /> register for the exams </p>
         </div>
-        <div className='d-flex main-div justify-content-center  align-items-center'>
+        <div className='d-flex main-div-exam justify-content-center  align-items-center'>
           {
             exams.map(exam => (
               <div className="d-flex levels">

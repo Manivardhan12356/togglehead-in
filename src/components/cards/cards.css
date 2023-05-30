@@ -1,46 +1,74 @@
 :root {
-  --color-blue: #26619C;
-  --color-gray: #777e85;
+   --color-blue: #26619C;
+   --color-gray: #777e85;
 }
 
-.cards-main{
+.cards-main {
    padding-top: 50px;
 }
 
-
 .card-content {
-  flex: 0 0 auto;
-  margin-right: 30px;
-  background: var(--color-blue);
-  color: white;
-  padding: 40px;
-  scroll-snap-align: start;
-  scroll-snap-stop: always; 
-  border-radius: 10px;
-
+   width: 400px;
 }
 
-.know{
-   gap:10px;
+
+
+.swiper-slide {
+   margin-right: 30px;
+   flex: 1;
+   background: var(--color-blue);
+   color: white;
+   padding: 40px;
+   border-radius: 10px;
 }
 
-.svg{
-  background-color: #fff;
- padding: 2px 4px;
- border-radius: 50%;
+.know {
+   gap: 10px;
+}
+
+.svg {
+   background-color: #fff;
+   padding: 2px 4px;
+   border-radius: 50%;
    margin-bottom: 10px;
-   }
-
-   .svg svg{
-      font-weight: 800;
-   }
-
-
-   @media screen and (max-width:560px) {
-      .card-content {
-  
-  padding: 20px;
-
-
 }
+
+.svg svg {
+   font-weight: 800;
+}
+
+@media screen and (max-width: 560px) {
+   .swiper-slide {
+      margin-right: 10px;
+      width: 100%;
    }
+
+   .card-content {
+      width: 100%;
+   }
+
+   .swiper-container {
+      overflow-x: hidden;
+     width: 100%;
+   }
+
+   .card-content p{
+      padding-right: 20px;
+   }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+   .swiper-container {
+      overflow-x: hidden;
+
+   }
+
+   .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
